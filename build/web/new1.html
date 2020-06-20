@@ -1,0 +1,431 @@
+<!--Template Name: vacayhome
+File Name: rooms.html
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/icons/favicon.png"/>
+        <title>StarBlue</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link href="css/responsive.css" rel="stylesheet">
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+        <script src="js/instafeed.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        
+        
+      
+      
+ 
+      
+    </head>
+    <body>
+        <div id="page">
+            <!---header top---->
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-6"><div class="social-grid">
+                                <ul class="list-unstyled text-right">
+                                    <li><a><i class="fa fa-facebook"></i></a></li>
+                                    <li><a><i class="fa fa-twitter"></i></a></li>
+                                    <li><a><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+            <!--header--->
+            <header class="header-container">
+                <div class="container">
+                    <div class="top-row">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-6">
+                                <div id="logo">
+                                    <!--<a href="index.html"><img src="images/logo.png" alt="logo"></a>-->
+                                    <a href="index.html"><span>Blue</span>Star</a>
+                                </div>                       
+                            </div>
+                            
+                            <div class="col-md-8 col-sm-12 col-xs-12 remove-padd">
+                                <nav class="navbar navbar-default">
+                                    <div class="navbar-header page-scroll">
+                                        <button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+
+                                    </div>
+                                   <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
+                                        <ul class="list-unstyled nav1 cl-effect-10">
+                                            <li><a  data-hover="Home" href="index.html"><span>Home</span></a></li>
+                                            <li><a data-hover="Rooms"  href="roomBooking.html" ><span>Rooms</span></a></li>
+                                            <li><a data-hover="Wedding" class="active"><span>W-Hall</span></a></li>
+                                            <li><a data-hover="Bar" href="bar_booking.html"><span>Bar</span></a></li>
+                                            <li><a data-hover="Careers" href="apply.html"><span>Careers</span></a></li>
+                                            
+                                        </ul>
+
+                                    </div>
+                                </nav>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+       
+<!-- MY CODE-->
+<div class="container">
+    <form>
+        
+        <div class="form-group row"  >
+             
+            <div id="homeimgehall">
+        <img  src="images/img2.JPG" alt="Img" width="1300" id="image" >
+            </div>
+              </div>
+       
+    </form>
+</div>
+
+   
+     <div class="container">
+ <div class="col-md-4 col-xm-6 col-xs-12 ">
+   <form name="availablehall" action="availableHall.jsp">
+      
+      
+           
+               <div class="panel panel-default">
+  <h3 class="panel-heading" style="color:#800080">Check available days </h3>
+  
+         
+      
+               
+                   <div class="panel-body">
+                       <input type="date" name="fromdate" id="depart" class="form-control" required="required">
+                   </div>
+              
+              
+                  <div class="panel-body">
+        <button type="submit" class="btn btn-danger"  >available</button>
+        <input type="reset" class="btn btn-danger" value="Clear" name="btnClear" />
+                 
+     
+                  </div>
+             
+         </div>
+        
+       
+    
+       
+    </form>
+     
+        <form action="uploadimage.jsp">
+       
+             
+             <div class="panel panel-default"> 
+                  
+                   <h3 class="panel-heading" style="color:#800080">Upload Paymentslip</h3>
+                  
+                  </div>
+             <div class="panel-body">
+                 
+                 <label>Enter Your email Adress</label>
+                  <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+                  
+                 
+             </div>
+             
+                <div class="panel-body">
+                 
+                 <label>Select Your File</label>
+                <input type = "file" name = "file">
+                  
+                  
+                 
+             </div>
+             
+             
+                <div class="panel-body">
+                 
+                  <button type="submit" value="Submit" class="btn btn-danger"  >Submit</button>
+                  
+                  
+                 
+             </div>
+             
+        
+         </form>
+      </div>   
+         
+
+
+
+         <div class="col-md-4 col-xm-6 col-xs-12 ">
+ <form action="hallbooking.jsp" name="hallbooking" onsubmit="return validation()" >
+      
+                 
+            
+ 
+           <div class="panel panel-default" >
+    <h3 class="panel-heading" style="color:#800080">Weeding hall Booking</h3>
+      
+            <div  class="panel-body">
+          
+        
+        <label for="ex1"> Date</label>
+        <input type="date" name="fromdate" id="fromdate"  class="form-control">
+           <span id="fDate" class="text-danger font-weight-bold"></span>
+     
+    </div>
+    <div  class="panel-body">
+          
+      <label >Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" autocomplete="off" name="email"  >
+    <span id="mail" class="text-danger font-weight-bold"></span>
+     
+    </div>
+      
+        <div  class="panel-body">
+      <label >Contact Number:</label>
+      <input type="text" class="form-control" placeholder="Enter Contact Number" id="contactnumber" name="contactnumber" autocomplete="off">
+      <span id="phonno" class="text-danger font-weight-bold"></span>
+    </div>
+      
+    
+        <div class="panel-body">
+      <label for="nOfClient">Number Of Clients:</label>
+      <input type="text" class="form-control"  placeholder="Enter No Of Client" id="nOfClient" name="nOfClient" autocomplete="off">
+         <span id="nclient" class="text-danger font-weight-bold"></span>
+    </div>
+        <div  class="panel-body">
+      <label for="nic">NIC:</label>
+      <input type="text" class="form-control"  placeholder="Enter nic number" id="nic" name="nic" autocomplete="off">
+         <span id="nicno" class="text-danger font-weight-bold"></span>
+        </div>
+    
+    <div  class="panel-body">
+      <label for="nic">AC OR Non-AC:</label>
+      <select name="acornonac" class="form-control" >
+          <option value="" >Select Option</option>
+          <option value="AC" >AC</option>
+           <option  value="NON-AC">NON-AC</option>
+      </select>
+         <span id="nicno" class="text-danger font-weight-bold"></span>
+        </div>
+   <div  class="panel-body">
+    <button type="submit" name="submit" class="btn btn-danger" >Save</button>
+    <span></span>
+     <input type="reset" class="btn btn-danger" value="Clear" name="btnClear"  />
+        <span></span>
+    </div>
+           </div>
+    
+     
+                
+  </form>
+
+     </div>
+<div class="col-md-4 col-sm-12 col-xs-12">
+   <div class="panel panel-default" >
+          <h3 class="panel-heading" style="color:#800080">Details about hall</h3>
+   </div>
+                 
+                 <div class="panel panel-danger">
+      <div class="panel-heading">Price details</div>
+      <div class="panel-body">Normally 75000/=</div>
+        <div class="panel-body">Some changes according to the number of guests</div>
+    </div>
+                
+    <div class="panel panel-danger">
+      <div class="panel-heading">Amount of guests</div>
+      <div class="panel-body">Maximum 500 guests</div>
+    </div>
+    
+    <div class="panel panel-danger">
+      <div class="panel-heading">Facilities</div>
+      <div class="panel-body">Two rooms attached</div>
+        <div class="panel-body">AC or Non- AC</div>
+         <div class="panel-body">Best Quality  background decrations</div>
+          
+    </div>
+    
+    
+    
+                 
+             
+          
+             
+             
+       
+         </div> 
+           
+  
+ </div>
+            
+           <script type="text/javascript" >
+                
+                function validation(){
+                    
+                    
+                    
+        var fdate = document.getElementById('fromdate').value ;
+    
+            var phoneno = document.getElementById('contactnumber').value ;
+              var nofclient = document.getElementById('nOfClient').value ;
+                var nic = document.getElementById('nic').value ;
+          
+        if(fdate == ""){
+            
+            document.getElementById('fDate').innerHTML="Please fill the date";
+            return false;
+        }
+        
+      
+     
+
+
+
+
+        if(phoneno == ""){
+            
+            document.getElementById('phonno').innerHTML="Please fill the Phone Number";
+            return false;
+        }
+        
+        if(isNaN(phoneno)){
+            document.getElementById('phonno').innerHTML="Must be entere digits not characters";
+            return false;
+                       
+            
+        }
+        
+        if(phoneno.length!=10){
+            
+            document.getElementById('phonno').innerHTML="Must be enter 10 digits ";
+            return false;
+            
+        }
+        if(nofclient == ""){
+            
+            document.getElementById('nclient').innerHTML="Please fill the  Number of client";
+            return false;
+        }
+        
+        if(nic == ""){
+            
+            document.getElementById('nicno').innerHTML="Please fill the  NIC number";
+            return false;
+        }
+        
+        if(nic.length!=10){
+            
+            document.getElementById('nicno').innerHTML="must be 10 or 11 character";
+            return false;
+            
+        }
+
+        
+                }
+                
+                
+                
+            </script>
+
+            
+            
+            
+      
+      <!-- MY CODE-->
+      
+      			  <!---footer--->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 width-set-50">
+                            <div class="footer-details">
+                                <h4>Get in touch</h4>
+                                <ul class="list-unstyled footer-contact-list">
+                                    <li>
+                                        <i class="fa fa-map-marker fa-lg"></i>
+                                        <p>2 SIR CHITTAMPLAMA GARDINER MAWATHA COLOMBO, SRI LANKA.</p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone fa-lg"></i>
+                                        <p><a href="tel:+1-202-555-0100"> +11- 456 6759</a></p>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope-o fa-lg"></i>
+                                        <p><a href="mailto:demo@info.com"> demo@info.com</a></p>
+                                    </li>
+                                </ul>
+                                <div class="footer-social-icon">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>                           
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                </div>
+                                <div class="input-group" id="subscribe">
+                                    <input type="text" class="form-control subscribe-box" value="" name="subscribe" placeholder="EMAIL ID">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn subscribe-button"><i class="fa fa-paper-plane fa-lg"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 width-50 width-set-50">
+                            <div class="footer-details">
+                                <h4>explore</h4>
+                                <ul class="list-unstyled footer-links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="roomBooking.html">Rooms</a></li>
+                                    <li class="active"></li>
+                                    <li><a href="bar_booking.html">Bar</a></li>
+                                    <li><a href="form.html">Careers</a></li>
+                                  
+                                    
+                                    <li> <a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="footer-details">
+                                <h4>Now On Instagram</h4>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        &copy; 2017 All right reserved.
+                    </div>
+
+            </footer>
+
+        </div>
+    </body>
+</html>
